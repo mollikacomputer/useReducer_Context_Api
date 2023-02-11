@@ -10,6 +10,7 @@
         "16GB 3200MHz DDR4 RAM+ 128GB M.2 PCIe SSD"
       ],
       "price": 128200,
+      "rating":4,
       "spec": [
         {
           "processor": "AMD RYZEN 5 5600X PROCESSOR"
@@ -48,6 +49,7 @@
         "GIGABYTE GT 730 2GB DDR3 PCI EXPRESS Graphics Card"
       ],
       "price": 41800,
+      "rating":4.5,
       "spec": [
         {
           "processor": "Intel Core i3-10100 10th Gen Processor"
@@ -83,6 +85,7 @@
         "ZOTAC GAMING GTX 1660 SUPER 6GB Twin Fan Graphics Card"
       ],
       "price": 84400,
+      "rating":5,
       "spec": [
         {
           "processor": "AMD Ryzen 5 3600 Processor"
@@ -118,6 +121,7 @@
         "ASUS GeForce GT 1030 2GB GDDR5 Low Profile Graphics Card"
       ],
       "price": 56700,
+      "rating":3,
       "spec": [
         {
           "processor": "Intel 10th Gen Core i5-10400F Processor"
@@ -153,6 +157,7 @@
         "GeForce GTX 1660 Super NB 6GB-V2 Graphics Card"
       ],
       "price": 102200,
+      "rating":3.5,
       "spec": [
         {
           "processor": "Intel 10th Gen Core i7-10700 Processor"
@@ -188,6 +193,7 @@
         "ZOTAC GAMING GTX 1660 SUPER 6GB Graphics Card"
       ],
       "price": 86200,
+      "rating":2,
       "spec": [
         {
           "processor": "Intel 11th Gen Core i5-11400 Rocket Lake Processor"
@@ -223,6 +229,7 @@
         "Asus Phoenix GeForce GTX 1050Ti 4GB GDDR5 Graphics Card"
       ],
       "price": 84000,
+      "rating":3.8,
       "spec": [
         {
           "processor": "Intel 11th Gen Core i5-11400F Rocket Lake Processor (3 Years Warranty)"
@@ -261,6 +268,7 @@
         "Colorful GeForce RTX 4090 NB EX-V 24GB GDDR6X Graphics Card"
       ],
       "price": 399999,
+      "rating":4,
       "spec": [
         {
           "processor": "AMD Ryzen 7 5800X3D Processor"
