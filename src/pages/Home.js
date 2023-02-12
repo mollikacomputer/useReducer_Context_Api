@@ -1,12 +1,26 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Loading from "../components/Loading";
 import ProductCard from "../components/ProductCard";
 import { useProducts } from "../context/ProductProvider";
 
 const Home = () => {
-const {data} = useProducts();
-console.log(data);
+const {state:{products, loading, error}} = useProducts();
+let content;
+if(loading){
+  content = <Loading/>
+}
 
+if(error){
+  content = <p> someting went wrong </p>
+}
+
+if(!loading && !error && products.length === 0){
+  content = <p> Nothing to show, product is empty </p>
+}
+
+if(!loading && !error && products.length){
+  content = products.map((product) => (<ProductCard key={product._id} product={product} />))
+}
   // const {
   //   state: { products, loading, error },
   // } = useProducts();
@@ -34,7 +48,7 @@ console.log(data);
 
   return (
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 max-w-7xl gap-14 mx-auto my-10'>
-      {/* {content} */}
+      {content}
 
     </div>
   );
